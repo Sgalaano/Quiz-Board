@@ -3,9 +3,9 @@
 
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/jquery.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/quiz-board.js"></script>
+  <script src="Js/jquery-3.3.1.js"></script>
+  <script src="Js/script.js"></script>
+  <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <title>QUIZ BOARD</title>
 
@@ -33,45 +33,51 @@
           <form id="Quiz" action="index.html" method="POST" name="Quiz">
             <p><strong> 1. The service that enable networking through script HTTPS request is ? </strong></p>
             <br>
-            <input type="radio" name="q1" id="mc" value="wrong">XMLHTTPS Response<br>
-            <input type="radio" name="q1" id="mc" value="wrong">XML Request<br>
-            <input type="radio" name="q1" id="mc" value="Correct">XMLHTTPS Response<br>
+            <input type="radio" name="q1" id="q1" value="wrong">XMLHTTPS Response<br>
+            <input type="radio" name="q1" id="q1" value="wrong">XML Request<br>
+            <input type="radio" name="q1" id="q1" value="Correct">XMLHTTPS Response<br>
         </div>
         <div class="well">
           <p><strong> 2. JavaScript code between a pair of "script" tags are called ?</strong></p>
           <br>
-          <input type="radio" name="q2" id="mc" value="wrong">Non-inline()<br>
-          <input type="radio" name="q2" id="mc" value="wrong">External()<br>
-          <input type="radio" name="q2" id="mc" value="correct">Inline()<br>
+          <input type="radio" name="q2" id="q2" value="wrong">Non-inline()<br>
+          <input type="radio" name="q2" id="q2" value="wrong">External()<br>
+          <input type="radio" name="q2" id="q2" value="correct">Inline()<br>
         </div>
         <div class="well">
           <p><strong> 3.Which of the following attribute can hold the Js version?</strong></p>
           <br>
-          <input type="radio" name="q3" id="mc" value="correct">Language()<br>
-          <input type="radio" name="q3" id="mc" value="wrong">None of the above()<br>
-          <input type="radio" name="q3" id="mc" value="wrong">Version()<br>
+          <input type="radio" name="q3" id="q3" value="correct">Language()<br>
+          <input type="radio" name="q3" id="q3" value="wrong">None of the above()<br>
+          <input type="radio" name="q3" id="q3" value="wrong">Version()<br>
         </div>
         <div class="well">
 
           <p><strong> 4. Inside which HTML element er put Javascript?</strong></p>
           <br>
-          <input type="radio" name="q4" id="mc" value="wrong">js()<br>
-          <input type="radio" name="q4" id="mc" value="correct">script()<br>
-          <input type="radio" name="q4" id="mc" value="wrong">JavaScript()<br>
+          <input type="radio" name="q4" id="q4" value="wrong">js()<br>
+          <input type="radio" name="q4" id="q4" value="correct">script()<br>
+          <input type="radio" name="q4" id="q4" value="wrong">JavaScript()<br>
         </div>
 
         <div class="well">
           <p><strong> 5. Choose the server-side JavaScript object?</strong></p>
           <br>
-          <input type="radio" name="q5" id="mc" value="wrong">FileUpload()<br>
-          <input type="radio" name="q5" id="mc" value="wrong">Function()<br>
-          <input type="radio" name="q5" id="mc" value="correct">File()<br>
+          <input type="radio" name="q5" id="q5" value="wrong">FileUpload()<br>
+          <input type="radio" name="q5" id="q5" value="wrong">Function()<br>
+          <input type="radio" name="q5" id="q5" value="correct">File()<br>
+        </div>
+        <h2><em>SUCCESS !!!</em></h2>
+        <div class="row">
+          <div class="col-md-6">
+            <button type="submit" name="bn-danger">Submit</button>
+          </div>
+          <div class="col-md-6">
+            <div id="output"></div>
+          </div>
         </div>
     </div>
-    <h2><em>SUCCESS !!!</em></h2>
 
-    <input type="button" name="results" value="SUBMIT" id="button" class="btn-danger" onClick="check();">
-  </div>
   </form>
   <div class="footer">
     <P>Incase of any inquiries here is my email;</p>
