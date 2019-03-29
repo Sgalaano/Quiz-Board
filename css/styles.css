@@ -6,11 +6,8 @@ h1 {
 h2 {
   text-align: right;
 }
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 2px solid red;
+
+body {
+  color: 	#D2691E;
+  font-size: 25;
 }

@@ -1,32 +1,20 @@
-function check() {
-  var q1 = document.Quiz.q1.value;
-  var q2 = document.Quiz.q2.value;
-  var q3 = document.Quiz.q3.value;
-  var q4 = document.Quiz.q4.value;
-  var q5 = document.Quiz.q5.value;
-  var right = 0;
+//==== Business logic====//
 
-// user interface
-  if (q1 == "correct") {
-      right = right + 20;
-  };
-  if (q2 == "correct") {
-      right = right + 20;
-  };
-  if (q3 == "correct") {
-      right = right + 20;
-  };
-  if (q4 == "correct") {
-      right = right + 20;
-  };
-  if (q5 == "correct") {
-      right = right + 20;
-  };
+$(document).ready(function() {
+  $("#blankForm").submit(function(event) {
+    var quiz1 = $("q1").val();
+    var quiz2 = $("q2").val();
+    var quiz3 = $("q3").val();
+    var quiz4 = $("q4").val();
+    var quiz5 = $("q5").val()
+
+    var resultScore = parseInt(q1) + parseInt(q2) + parseInt(q3) + parseInt(q4) + parseInt(q5)
+    $("#finish").text("You SCored: " + resultScore + " out of 100");
 
 
+    //==== User Interface ====//
+    $("#finish").show();
+    event.preventDefault();
+  });
 
-  document.getElementById("fifth-p").style.visibility = "visible";
-  document.getElementById("correctNumber").index.html = "HERE IS YOUR SCORE: " + right + "%";
-  $(".container").fadeOut();
-
-};
+});
