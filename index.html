@@ -16,7 +16,7 @@
       </div>
       <h3>Answer all questions and let's see if you know JavaScript</h3>
       <br>
-      <form>
+      <form id="blankForm">
         <div class="form-group">
           <label for="person1">NAME</label>
           <input id="person1" class="form-control" type="text">
@@ -32,39 +32,39 @@
           <form id="Quiz" action="index.html" method="POST" name="Quiz">
             <p><strong> 1. The service that enable networking through script HTTPS request is ? </strong></p>
             <br>
-            <input type="radio" name="q1" id="q1" value="wrong">XMLHTTPS Response<br>
-            <input type="radio" name="q1" id="q1" value="wrong">XML Request<br>
-            <input type="radio" name="q1" id="q1" value="Correct">XMLHTTPS Response<br>
+            <input type="radio" name="q1" id="q1" value="0">None of the above<br>
+            <input type="radio" name="q1" id="q1" value="0">XML Request<br>
+            <input type="radio" name="q1" id="q1" value="20">XMLHTTPS Response<br>
         </div>
         <div class="well">
           <p><strong> 2. JavaScript code between a pair of "script" tags are called ?</strong></p>
           <br>
-          <input type="radio" name="q2" id="q2" value="wrong">Non-inline()<br>
-          <input type="radio" name="q2" id="q2" value="wrong">External()<br>
-          <input type="radio" name="q2" id="q2" value="correct">Inline()<br>
+          <input type="radio" name="q2" id="q2" value="0">Non-inline()<br>
+          <input type="radio" name="q2" id="q2" value="0">External()<br>
+          <input type="radio" name="q2" id="q2" value="20">Inline()<br>
         </div>
         <div class="well">
           <p><strong> 3.Which of the following attribute can hold the Js version?</strong></p>
           <br>
-          <input type="radio" name="q3" id="q3" value="correct">Language()<br>
-          <input type="radio" name="q3" id="q3" value="wrong">None of the above()<br>
-          <input type="radio" name="q3" id="q3" value="wrong">Version()<br>
+          <input type="radio" name="q3" id="q3" value="20">Language()<br>
+          <input type="radio" name="q3" id="q3" value="0">None of the above()<br>
+          <input type="radio" name="q3" id="q3" value="0">Version()<br>
         </div>
         <div class="well">
 
           <p><strong> 4. Inside which HTML element er put Javascript?</strong></p>
           <br>
-          <input type="radio" name="q4" id="q4" value="wrong">js()<br>
-          <input type="radio" name="q4" id="q4" value="correct">script()<br>
-          <input type="radio" name="q4" id="q4" value="wrong">JavaScript()<br>
+          <input type="radio" name="q4" id="q4" value="0">js()<br>
+          <input type="radio" name="q4" id="q4" value="20">script()<br>
+          <input type="radio" name="q4" id="q4" value="0">JavaScript()<br>
         </div>
 
         <div class="well">
           <p><strong> 5. Choose the server-side JavaScript object?</strong></p>
           <br>
-          <input type="radio" name="q5" id="q5" value="wrong">FileUpload()<br>
-          <input type="radio" name="q5" id="q5" value="wrong">Function()<br>
-          <input type="radio" name="q5" id="q5" value="correct">File()<br>
+          <input type="radio" name="q5" id="q5" value="0">FileUpload()<br>
+          <input type="radio" name="q5" id="q5" value="0">Function()<br>
+          <input type="radio" name="q5" id="q5" value="20">File()<br>
         </div>
         <h2><em>SUCCESS !!!</em></h2>
         <div class="row">
@@ -72,7 +72,7 @@
             <button type="submit" name="bn-danger">Submit</button>
           </div>
           <div class="col-md-6">
-            <div id="output"></div>
+            <div id="input"></div>
           </div>
         </div>
     </div>
