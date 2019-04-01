@@ -1,81 +1,39 @@
-<!DOCTYPE>
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <script src="Js/jquery-3.3.1.js"></script>
-  <script src="Js/script.js"></script>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>JAVASCRIPT TEST</title>
 </head>
-<title>QUIZ BOARD</title>
+
 
 <body style="background-image:url(Images/js.jpg)">
+  <h1>JAVASCRIPT QUIZ </h1>
   <div class="container">
-    <div class="panel panel-info">
-      <h1>QUIZ BOARD</h1>
-    </div>
-    <h3>Answer all questions and let's see if you know JavaScript</h3>
-    <br>
-    <div class="well">
-      <form id="Quiz" action="index.html" method="POST" name="Quiz">
-        <p><strong> 1. The service that enable networking through script HTTPS request is ? </strong></p>
-        <br>
-        <input type="radio" name="q1" id="q1" value="0">None of the above<br>
-        <input type="radio" name="q1" id="q1" value="0">XML Request<br>
-        <input type="radio" name="q1" id="q1" value="20">XMLHTTPS Response<br>
-    </div>
-    <div class="well">
-      <p><strong> 2. JavaScript code between a pair of "script" tags are called ?</strong></p>
-      <br>
-      <input type="radio" name="q2" id="q2" value="0">Non-inline()<br>
-      <input type="radio" name="q2" id="q2" value="0">External()<br>
-      <input type="radio" name="q2" id="q2" value="20">Inline()<br>
-    </div>
-    <div class="well">
-      <p><strong> 3.Which of the following attribute can hold the Js version?</strong></p>
-      <br>
-      <input type="radio" name="q3" id="q3" value="20">Language()<br>
-      <input type="radio" name="q3" id="q3" value="0">None of the above()<br>
-      <input type="radio" name="q3" id="q3" value="0">Version()<br>
-    </div>
-    <div class="well">
+    <div class="jumbotron">
+      <h3>This is a site that enables you to value your understanding in JavaScript.</h3>
+      <h3>There is a totat of 5 questions each containing 20mrks</h3>
+      <h3>Answer all the questions</h3>
+      <form id="blankForm">
+        <div class="form-group">
+          <label for="person1">NAME</label>
+          <input id="person1" class="form-control" type="text">
 
-      <p><strong> 4. Inside which HTML element er put Javascript?</strong></p>
-      <br>
-      <input type="radio" name="q4" id="q4" value="0">js()<br>
-      <input type="radio" name="q4" id="q4" value="20">script()<br>
-      <input type="radio" name="q4" id="q4" value="0">JavaScript()<br>
-    </div>
+        </div>
 
-    <div class="well">
-      <p><strong> 5. Choose the server-side JavaScript object?</strong></p>
-      <br>
-      <input type="radio" name="q5" id="q5" value="0">FileUpload()<br>
-      <input type="radio" name="q5" id="q5" value="0">Function()<br>
-      <input type="radio" name="q5" id="q5" value="20">File()<br>
-    </div>
-    <h2><em>SUCCESS !!!</em></h2>
-    <div class="row">
-      <div class="col-md-6">
-        <button type="submit" name="bn-danger">Submit</button>
-      </div>
-      <div class="col-md-6">
-        <div id="input"></div>
-      </div>
+        <div class="form-group">
+          <label for="Name of the school">SCHOOL</label>
+          <input id="Name of the school" class="form-control" type="text">
+        </div>
+
+        <div style="text-align: center"><a href="quiz.html"><input type="button" value="Open the quiz"></div>
     </div>
   </div>
-
-  </form>
-  <div class="footer">
-    <P>Incase of any inquiries here is my email;</p>
-    <p>sgalaano@gmail.com</p>
-  </div>
-  </div>
-
-  <div id="finish">
-
-    <p id="correctNumber">YOUR SCORE IS:</p>
-  </div>
-
 </body>
-<html>
+
+</html>
