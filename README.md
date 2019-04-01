@@ -3,6 +3,7 @@
 #### By **{Galaano Suleiman}**
 ## Description
 {This site allows a student to do an examination on JavaScript where if the student doesnt get the average will have to redo the exam again this site. }
+https://sgalaano.github.io/Quiz-Board/
 ## Setup/Installation Requirements
 * github
 * Style.css
