@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # {QUIZ BOARD}
 #### {This is an application that one uses to answer questions preferably students to know if they have understood JavaScript}, {29/3/2019}
 #### By **{Galaano Suleiman}**
@@ -34,9 +33,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.}*
 Copyright (c) {2019} **{Galaano Suleiman , Moringa school.}**
-=======
-# Quiz-Board
->>>>>>> 92f03891668700c16d852cb6cddeac3006e47c2a
-=======
-# Quiz-Board
->>>>>>> 4602810f0bb48202f933ff1dc5996ea26ebed017
