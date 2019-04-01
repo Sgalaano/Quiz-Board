@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # {QUIZ BOARD}
 #### {This is an application that one uses to answer questions preferably students to know if they have understood JavaScript}, {29/3/2019}
 #### By **{Galaano Suleiman}**
